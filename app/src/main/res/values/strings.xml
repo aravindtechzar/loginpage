@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">loginpage</string>
+    <string name="submit">SUBMIT</string>
+    <string name="open" />
+    <string name="close" />
+    <string name="facebook_app_id">802685927240986</string>
+    <string name="fb_login_protocol_scheme">fb802685927240986</string>
+
+</resources>

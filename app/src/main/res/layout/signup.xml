@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        app:navigationIcon="@drawable/ic_baseline_arrow_back_ios_24"
+        app:title="home">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:padding="15dp"
+
+        android:hint="Name"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:id="@+id/name">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:padding="15dp"
+      android:hint="Mail Id"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:id="@+id/mailid">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginTop="7dp"
+        android:padding="15dp"
+        android:hint="Password"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:id="@+id/password">
+    </EditText>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:padding="15dp"
+        android:inputType="number"
+        android:hint="Phone no."
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:id="@+id/phoneno">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:padding="15dp"
+        android:inputType="number"
+        android:hint="Age"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:id="@+id/age">
+    </EditText>
+
+
+    <Spinner
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        style="@style/Widget.AppCompat.DropDownItem.Spinner"
+        android:gravity="center"
+        android:spinnerMode="dropdown"
+
+        />
+    <Button
+        android:layout_marginTop="25dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="SUBMIT"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp"
+        android:background="@drawable/custom_button"
+    android:id="@+id/submit">
+
+</Button>
+
+</LinearLayout>

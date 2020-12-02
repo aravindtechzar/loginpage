@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:padding="@dimen/cardview_compat_inset_shadow"
+    android:src="@drawable/icon">
+
+</ImageView>
+
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center_horizontal"
+        android:maxWidth="80dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:lines="2"
+        android:textSize="14dp"
+        android:layout_gravity="top|center_horizontal"/>
+    <TextView
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center_horizontal"
+        android:maxWidth="80dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:lines="2"
+        android:textSize="14dp"
+        android:layout_gravity="top|center_horizontal">
+
+    </TextView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="dff"
+        android:id="@+id/logout"
+        android:text="LOGOUT?">
+
+    </Button>
+</LinearLayout>
